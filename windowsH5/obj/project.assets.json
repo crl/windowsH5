@@ -25734,11 +25734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Crl\\Documents\\Visual Studio 2017\\Projects\\windowsH5\\windowsH5\\windowsH5.csproj",
+      "projectUniqueName": "E:\\GitHub\\windowsH5\\windowsH5\\windowsH5.csproj",
       "projectName": "windowsH5",
-      "projectPath": "C:\\Users\\Crl\\Documents\\Visual Studio 2017\\Projects\\windowsH5\\windowsH5\\windowsH5.csproj",
+      "projectPath": "E:\\GitHub\\windowsH5\\windowsH5\\windowsH5.csproj",
       "packagesPath": "C:\\Users\\Crl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Crl\\Documents\\Visual Studio 2017\\Projects\\windowsH5\\windowsH5\\obj\\",
+      "outputPath": "E:\\GitHub\\windowsH5\\windowsH5\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>68175346-4634-4411-be1b-780f74372e14</PackageIdentityName>
     <PackageIdentityPublisher>CN=Crl</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\GitHub\windowsH5\windowsH5\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>E37080205A7AFA698ABC91D709F7E371E42B1DD78B75C9CEF7989034D679AC7C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>68175346-4634-4411-be1b-780f74372e14_1.0.0.0_x86__sqn6aaev1521g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68175346-4634-4411-be1b-780f74372e14_sqn6aaev1521g!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T08:21:57.790</Modified>
+      <Modified>2017-12-05T09:51:07.605</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\bin\x86\Debug\windowsH5.exe">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.exe">
       <PackagePath>entrypoint\windowsH5.exe</PackagePath>
-      <Modified>2017-12-05T08:21:57.484</Modified>
+      <Modified>2017-12-05T09:51:03.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Crl\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -499,47 +499,47 @@
       <PackagePath>MiracleGames.winmd</PackagePath>
       <Modified>2017-11-14T10:04:04.773</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-12-05T07:48:49.144</Modified>
+      <Modified>2017-12-05T09:48:47.123</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-24T04:20:10.796</Modified>
+      <Modified>2017-12-05T09:48:47.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\bin\x86\Debug\windowsH5.xr.xml">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.xr.xml">
       <PackagePath>windowsH5.xr.xml</PackagePath>
-      <Modified>2017-12-05T07:50:27.775</Modified>
+      <Modified>2017-12-05T09:48:47.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -549,14 +549,14 @@
       <PackagePath>MiracleGames\MiracleGames.xr.xml</PackagePath>
       <Modified>2017-11-14T10:04:01.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T08:13:59.079</Modified>
+      <Modified>2017-12-05T09:51:04.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Crl\Documents\Visual Studio 2017\Projects\windowsH5\windowsH5\bin\x86\Debug\Core\windowsH5.exe">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\windowsH5.exe">
       <PackagePath>windowsH5.exe</PackagePath>
-      <Modified>2017-12-05T08:21:57.784</Modified>
+      <Modified>2017-12-05T09:51:07.596</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
