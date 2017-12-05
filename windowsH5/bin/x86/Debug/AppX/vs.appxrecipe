@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:51:07.605</Modified>
+      <Modified>2017-12-05T12:20:57.810</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.exe">
       <PackagePath>entrypoint\windowsH5.exe</PackagePath>
-      <Modified>2017-12-05T09:51:03.614</Modified>
+      <Modified>2017-12-05T12:00:44.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Crl\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -497,7 +497,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\h5_win10\H5对接文档\Release\MiracleGames.winmd">
       <PackagePath>MiracleGames.winmd</PackagePath>
-      <Modified>2017-11-14T10:04:04.773</Modified>
+      <Modified>2017-12-05T10:50:15.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -537,9 +537,13 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-05T09:48:47.120</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\test\test.html">
+      <PackagePath>test\test.html</PackagePath>
+      <Modified>2017-12-05T12:20:38.254</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.xr.xml">
       <PackagePath>windowsH5.xr.xml</PackagePath>
-      <Modified>2017-12-05T09:48:47.501</Modified>
+      <Modified>2017-12-05T10:01:19.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -547,16 +551,16 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\h5_win10\H5对接文档\Release\MiracleGames\MiracleGames.xr.xml">
       <PackagePath>MiracleGames\MiracleGames.xr.xml</PackagePath>
-      <Modified>2017-11-14T10:04:01.273</Modified>
+      <Modified>2017-11-23T02:54:09.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:51:04.318</Modified>
+      <Modified>2017-12-05T12:00:44.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\windowsH5.exe">
       <PackagePath>windowsH5.exe</PackagePath>
-      <Modified>2017-12-05T09:51:07.596</Modified>
+      <Modified>2017-12-05T12:20:57.805</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

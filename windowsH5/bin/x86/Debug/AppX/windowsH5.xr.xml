@@ -11,6 +11,6 @@
       <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="taohuoxinggeH5.MainPage" />
+    <RootType FullName="h5.MainPage" />
   </Roots.RootTypes>
 </Roots>

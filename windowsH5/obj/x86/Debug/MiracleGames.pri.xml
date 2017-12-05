@@ -2,7 +2,7 @@
 <PriInfo>
 	<ResourceMap name="MiracleGames" version="1.0" primary="true">
 		<Qualifiers>
-			<Language>EN</Language>
+			<Language>ZH-CN,EN</Language>
 		</Qualifiers>
 		<ResourceMapSubtree name="Files">
 			<ResourceMapSubtree name="MiracleGames">
@@ -75,278 +75,278 @@
 		<ResourceMapSubtree name="MiracleGames">
 			<ResourceMapSubtree name="Resources">
 				<NamedResource name="SignInControlErrorCode" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlErrorCode">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>错误码</Value>
+					</Candidate>
 					<Candidate qualifiers="Language-EN" type="String">
 						<Value>Code</Value>
 					</Candidate>
-					<Candidate type="String">
-						<Value>错误码</Value>
-					</Candidate>
 				</NamedResource>
 				<NamedResource name="SignInControlForgetPasswordMessage" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlForgetPasswordMessage">
-					<Candidate qualifiers="Language-EN" type="String">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
 						<Value>Please contact support@miraclegamesltd.com</Value>
 					</Candidate>
-					<Candidate type="String">
+					<Candidate qualifiers="Language-EN" type="String">
 						<Value>Please contact support@miraclegamesltd.com</Value>
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="SignInControlPasswordLimit" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlPasswordLimit">
+					<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+						<Value>密码 6-30个字符</Value>
+					</Candidate>
 					<Candidate qualifiers="Language-EN" type="String">
 						<Value>6-30 characters</Value>
-					</Candidate>
-					<Candidate type="String">
-						<Value>密码 6-30个字符</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="BindAndSignIn">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/BindAndSignIn/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>绑定 &amp; 登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Bind &amp; SignIn</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>绑定 &amp; 登录</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="BindControlTip1">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/BindControlTip1/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>点击登录即表示您同意</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Clicking Login means your approval of</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>点击登录即表示您同意</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="BindControlTip2">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/BindControlTip2/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>服务条款</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Terms of Service</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>服务条款</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="BindNumber">
 					<NamedResource name="PlaceholderText" uri="ms-resource://MiracleGames/MiracleGames/Resources/BindNumber/PlaceholderText">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>请输入手机号</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Enter Your Email</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>请输入手机号</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="GetIdentifyCode">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/GetIdentifyCode/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>获取验证码</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Get Code</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>获取验证码</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="IdentifyCode">
 					<NamedResource name="PlaceholderText" uri="ms-resource://MiracleGames/MiracleGames/Resources/IdentifyCode/PlaceholderText">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>验证码</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Identifying Code</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>验证码</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="OtherSignIn">
 					<NamedResource name="Visibility" uri="ms-resource://MiracleGames/MiracleGames/Resources/OtherSignIn/Visibility">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>Visible</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Collapsed</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>Visible</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="pathEmail">
 					<NamedResource name="Visibility" uri="ms-resource://MiracleGames/MiracleGames/Resources/pathEmail/Visibility">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>Collapsed</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Visible</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>Collapsed</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="pathPhone">
 					<NamedResource name="Visibility" uri="ms-resource://MiracleGames/MiracleGames/Resources/pathPhone/Visibility">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>Visible</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Collapsed</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>Visible</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="PayChannel_Tag1">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/PayChannel_Tag1/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>需要支付：</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Need to Pay : </Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>需要支付：</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="PayChannel_Tag2">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/PayChannel_Tag2/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>请选择一种支付方式</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Select a payment method</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>请选择一种支付方式</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="PayChannel_Title">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/PayChannel_Title/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>购买</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Purchase</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>购买</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlAccountManageButton">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlAccountManageButton/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>账号管理</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Manage Accounts</Value>
 						</Candidate>
-						<Candidate type="String">
-							<Value>账号管理</Value>
-						</Candidate>
 					</NamedResource>
 					<NamedResource name="Visibility" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlAccountManageButton/Visibility">
-						<Candidate qualifiers="Language-EN" type="String">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
 							<Value>Visible</Value>
 						</Candidate>
-						<Candidate type="String">
+						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Visible</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlBinding">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlBinding/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>绑定手机</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Bind Email</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>绑定手机</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlBindingTip">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlBindingTip/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>安全提醒:您的账号未绑定手机号，将无法找回密码</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Notice: Your account haven't bound with email.</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>安全提醒:您的账号未绑定手机号，将无法找回密码</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlChangeAccount">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlChangeAccount/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>切换账号</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Switch</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>切换账号</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlContinue">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlContinue/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>继续登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Continue</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>继续登录</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlForgetPassword">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlForgetPassword/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>忘记密码?</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Forget password?</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>忘记密码?</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlNormalSignUp">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlNormalSignUp/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>注册</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Sign up</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>注册</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlPassword">
 					<NamedResource name="PlaceholderText" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlPassword/PlaceholderText">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>密码</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Password</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>密码</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlPhoneBound">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlPhoneBound/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>已绑定手机号</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Already signed in</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>已绑定手机号</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignIn">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignIn/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Sign in</Value>
 						</Candidate>
-						<Candidate type="String">
-							<Value>登录</Value>
-						</Candidate>
 					</NamedResource>
 					<NamedResource name="Margin" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignIn/Margin">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>6,12,12,0</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>12,12,12,0</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>6,12,12,0</Value>
 						</Candidate>
 					</NamedResource>
 					<ResourceMapSubtree name="Grid">
 						<NamedResource name="Column" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignIn/Grid/Column">
-							<Candidate qualifiers="Language-EN" type="String">
+							<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
 								<Value>1</Value>
 							</Candidate>
-							<Candidate type="String">
+							<Candidate qualifiers="Language-EN" type="String">
 								<Value>1</Value>
 							</Candidate>
 						</NamedResource>
 						<NamedResource name="ColumnSpan" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignIn/Grid/ColumnSpan">
-							<Candidate qualifiers="Language-EN" type="String">
+							<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
 								<Value>1</Value>
 							</Candidate>
-							<Candidate type="String">
+							<Candidate qualifiers="Language-EN" type="String">
 								<Value>1</Value>
 							</Candidate>
 						</NamedResource>
@@ -354,232 +354,232 @@
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignInWithPhone">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignInWithPhone/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>手机登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Login with phone</Value>
 						</Candidate>
-						<Candidate type="String">
-							<Value>手机登录</Value>
-						</Candidate>
 					</NamedResource>
 					<NamedResource name="Visibility" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignInWithPhone/Visibility">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>Visible</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Collapsed</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>Visible</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignOut">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignOut/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>注销</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Sign out</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>注销</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignUp">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignUp/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>注册&amp;登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Sign up</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>注册&amp;登录</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignUpTips">
 					<NamedResource name="Margin" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignUpTips/Margin">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>12,12,12,0</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>12,6,6,0</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>12,12,12,0</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignUpTitle">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignUpTitle/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>注册</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Sign up</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>注册</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlSignUpUserName">
 					<NamedResource name="PlaceholderText" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlSignUpUserName/PlaceholderText">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>用户名/邮箱</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>User name/Email</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>用户名/邮箱</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlTerms">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlTerms/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>服务条款</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Terms of User</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>服务条款</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlTerms1">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlTerms1/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>点击登录即表示您同意</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>You are agreed with our</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>点击登录即表示您同意</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlTerms2">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlTerms2/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value/>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>by Clicking Sign up</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value/>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlTouristSignIn">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlTouristSignIn/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>游客登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Guest</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>游客登录</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="SignInControlUserName">
 					<NamedResource name="PlaceholderText" uri="ms-resource://MiracleGames/MiracleGames/Resources/SignInControlUserName/PlaceholderText">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>用户名/手机号/邮箱</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>User name/Email</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>用户名/手机号/邮箱</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristAccount">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristAccount/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>游客账号  |</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Account  |</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>游客账号  |</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristNotSave">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristNotSave/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>不允许</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>No</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>不允许</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristPassword">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristPassword/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>游客密码  |</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Password  |</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>游客密码  |</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSave">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSave/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>允许(推荐)</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Yes(Advised)</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>允许(推荐)</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSignInControlGoBack">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSignInControlGoBack/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>返回登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Back to Login</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>返回登录</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSignInControlTouristSignUp">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSignInControlTouristSignUp/Content">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>继续游客登录</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Guest Login</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>继续游客登录</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSignInTip">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSignInTip/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>游客账号不易保管，建议您注册正式账号或及时绑定账号</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Please register an official account or bind your account. Guest account is hard to keep.</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>游客账号不易保管，建议您注册正式账号或及时绑定账号</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSignInTip1">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSignInTip1/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>是否允许将当前界面保存到图片库中</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Allow it to save the current interface into photo gallery?</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>是否允许将当前界面保存到图片库中</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSignInTip2">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSignInTip2/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>当你忘记帐号时可以在相册/图片库中找回哦</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Retrieve your account from Photo once forgetting it.</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>当你忘记帐号时可以在相册/图片库中找回哦</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="TouristSignInTipTitle">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/TouristSignInTipTitle/Text">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
+							<Value>温馨提示</Value>
+						</Candidate>
 						<Candidate qualifiers="Language-EN" type="String">
 							<Value>Kindly Notice</Value>
-						</Candidate>
-						<Candidate type="String">
-							<Value>温馨提示</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="ZhijibtnNormalSignUpAndSignIn">
 					<NamedResource name="Content" uri="ms-resource://MiracleGames/MiracleGames/Resources/ZhijibtnNormalSignUpAndSignIn/Content">
-						<Candidate type="String">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
 							<Value>登陆</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="ZhijiSignInControlSignUpTitle">
 					<NamedResource name="Text" uri="ms-resource://MiracleGames/MiracleGames/Resources/ZhijiSignInControlSignUpTitle/Text">
-						<Candidate type="String">
+						<Candidate qualifiers="Language-ZH-CN" isDefault="true" type="String">
 							<Value>智机网账号登陆</Value>
 						</Candidate>
 					</NamedResource>

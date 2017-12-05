@@ -1,0 +1,52 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CRL_NATIVE_TEST</title>
+
+<script>
+
+    function login() {
+      
+        window.external.notify("MG_Login");
+        log("login");
+    }
+    function recharge() {
+
+        log("recharge");
+        var comment = "c";
+        var goodsKey = "7EF880CCF39ECA7";
+        var callbackId = "12";
+
+        var Pay=new Object();
+        Pay.Comment = comment;
+        Pay.DigitalGoodsKey = goodsKey;
+        Pay.CallbackId = callbackId;
+        var value=JSON.stringify(Pay);
+        window.external.notify(value);
+    }
+
+    //微软的返回值
+    function MG_CallBack(account, id, token) {
+        var v = account + "-" + id + "-" + token
+        log(v);
+    }
+    function MG_PayBack(o){
+        var value=JSON.parse(o);
+    }
+
+    function log(o) {
+        document.getElementById("result").innerHTML+=o+"<br/>";
+    }
+
+</script>
+
+</head>
+
+<body>
+    <div><button style="width: 100%; height: 50px;"  onclick="login()">Login</button></div>
+<div><button style="width: 100%; height: 50px;"  onclick="recharge()">充值</button></div>
+    
+    <div id="result"></div>
+</body>
+</html>

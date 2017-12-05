@@ -9,7 +9,7 @@
 
 
 
-namespace taohuoxinggeH5
+namespace h5
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
@@ -157,12 +157,12 @@ namespace windowsH5.windowsH5_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[3];
-            _typeNameTable[0] = "taohuoxinggeH5.MainPage";
+            _typeNameTable[0] = "h5.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
 
             _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::taohuoxinggeH5.MainPage);
+            _typeTable[0] = typeof(global::h5.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
@@ -199,7 +199,7 @@ namespace windowsH5.windowsH5_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::taohuoxinggeH5.MainPage(); }
+        private object Activate_0_MainPage() { return new global::h5.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -211,7 +211,7 @@ namespace windowsH5.windowsH5_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  taohuoxinggeH5.MainPage
+            case 0:   //  h5.MainPage
                 userType = new global::windowsH5.windowsH5_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
                 userType.SetIsLocalType();
