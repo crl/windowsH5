@@ -21,29 +21,13 @@ namespace h5
                 MiracleGames.AuthenticationNavigationCommand command = new MiracleGames.AuthenticationNavigationCommand();
                 command.ParentContainer = grid;
 
+
                 DateTime dt=DateTime.Now;
                 long t=dt.ToFileTimeUtc();
 
                 string url=String.Format("http://gate.shushanh5.lingyunetwork.com/gate/micro/login.aspx?t={0}&p=win", t);
-                url = "http://192.168.1.51/test.html";
-
-                url = "ms-appx-web:///test/test.html";
+                //url = "ms-appx-web:///test/test.html";
                 h5.Load(command, url);
-
-
-                h5.ShowAdvertisement += (asender, ae) =>//这个是广告，如果不需要广告则不用些这个，具体广告怎么接可以看文档
-                {
-                    var ad = new MiracleGames.Advertising.UI.AdControl("xxxxxxxxxx", "yyyyyyyyyy", true);//第一个是pc，第二个是手机，第三个广告刷新
-                    ad.CloseIconVisibility = Visibility.Visible;
-                    ad.ErrorOccurred += async (ss, ee) =>
-                    {
-                        System.Diagnostics.Debug.WriteLine(ee.ToString());
-                        MessageDialog md = new MessageDialog(ee.Exception.ToString());
-                        await md.ShowAsync();
-                    };
-                    this.grid.Children.Add(ad);
-                    Canvas.SetZIndex(ad, 32766);
-                };
             };
         }
     }

@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>E37080205A7AFA698ABC91D709F7E371E42B1DD78B75C9CEF7989034D679AC7C</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>68175346-4634-4411-be1b-780f74372e14_1.0.0.0_x86__sqn6aaev1521g</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>E59D0486936B6D55FD815383DC8E92720A5F28FD1F7A6A691D60EF594024821A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>68175346-4634-4411-be1b-780f74372e14_1.0.2.0_x86__sqn6aaev1521g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68175346-4634-4411-be1b-780f74372e14_sqn6aaev1521g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>68175346-4634-4411-be1b-780f74372e14</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Crl</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T12:20:57.810</Modified>
+      <Modified>2017-12-12T07:41:12.088</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.exe">
       <PackagePath>entrypoint\windowsH5.exe</PackagePath>
-      <Modified>2017-12-05T12:00:44.020</Modified>
+      <Modified>2017-12-12T07:41:11.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Crl\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,9 +495,13 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\h5_win10\H5对接文档\Release\MiracleGames.winmd">
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-03-14T13:30:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\桌面\Release\MiracleGames.winmd">
       <PackagePath>MiracleGames.winmd</PackagePath>
-      <Modified>2017-12-05T10:50:15.822</Modified>
+      <Modified>2017-12-08T10:03:26.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -539,7 +543,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\test\test.html">
       <PackagePath>test\test.html</PackagePath>
-      <Modified>2017-12-05T12:20:38.254</Modified>
+      <Modified>2017-12-11T10:30:41.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.xr.xml">
       <PackagePath>windowsH5.xr.xml</PackagePath>
@@ -549,18 +553,18 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T09:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\h5_win10\H5对接文档\Release\MiracleGames\MiracleGames.xr.xml">
+    <AppxPackagedFile Include="D:\桌面\Release\MiracleGames\MiracleGames.xr.xml">
       <PackagePath>MiracleGames\MiracleGames.xr.xml</PackagePath>
       <Modified>2017-11-23T02:54:09.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T12:00:44.430</Modified>
+      <Modified>2017-12-12T07:40:34.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\windowsH5.exe">
       <PackagePath>windowsH5.exe</PackagePath>
-      <Modified>2017-12-05T12:20:57.805</Modified>
+      <Modified>2017-12-12T07:41:12.081</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -593,36 +597,36 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

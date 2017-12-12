@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="68175346-4634-4411-be1b-780f74372e14" Publisher="CN=Crl" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="68175346-4634-4411-be1b-780f74372e14" Publisher="CN=Crl" Version="1.0.2.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="68175346-4634-4411-be1b-780f74372e14" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>windowsH5</DisplayName>
@@ -17,7 +17,7 @@
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10586.0" MaxVersionTested="10.0.16299.0" />
     <PackageDependency Name="Microsoft.NET.CoreRuntime.1.1" MinVersion="1.1.25305.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
-    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.25547.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.25830.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="ZH-CN" />
@@ -38,19 +38,19 @@
       <InProcessServer>
         <Path>windowsH5.exe</Path>
         <ActivatableClass ActivatableClassId="MiracleGames.StoreNavigationCommand" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MiracleGames.Advertising.UI.AdControl" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MiracleGames.Advertising.UI.IntegralWallPage" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.Advertising.UI.IntegralWallUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MiracleGames.Advertising.UI.IntegralWallPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MiracleGames.Advertising.UI.AdControl" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.Advertising.UI.CloseButton" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.Advertising.AdvertisingManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MiracleGames.ApplicationManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MiracleGames.AuthenticationNavigationCommand" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MiracleGames.NavigationCommand" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.MiracleGames_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.User.AuthenticationManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MiracleGames.AuthenticationNavigationCommand" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.Payment.UI.StoreUI" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.Payment.PaymentManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="MiracleGames.NavigationCommand" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="MiracleGames.Game.H5Control" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MiracleGames.ApplicationManager" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -59,11 +59,11 @@
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2017" />
     <build:Item Name="OperatingSystem" Version="10.0.10586.0 (th2_release.151029-1700)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26906.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27128.1" />
     <build:Item Name="ProjectGUID" Value="{A3FF65CB-E636-49A9-A575-025FD19EBF5A}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26906.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27128.1" />
     <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

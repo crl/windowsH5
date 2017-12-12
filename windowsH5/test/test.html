@@ -7,8 +7,7 @@
 <script>
 
     function login() {
-      
-        window.external.notify("MG_Login");
+        window.external.notify("login");
         log("login");
     }
     function recharge() {
@@ -27,12 +26,16 @@
     }
 
     //微软的返回值
-    function MG_CallBack(account, id, token) {
-        var v = account + "-" + id + "-" + token
-        log(v);
+    function MG_CallBack(account,id,token){
+
+        if (account && id && token) {
+            var v = account + "+" + id + "+" + token;
+            log(v);
+        }
     }
     function MG_PayBack(o){
-        var value=JSON.parse(o);
+        var value = JSON.parse(o);
+        log(value);
     }
 
     function log(o) {
