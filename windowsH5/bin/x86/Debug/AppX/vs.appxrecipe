@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>68175346-4634-4411-be1b-780f74372e14</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Crl</PackageIdentityPublisher>
+    <PackageIdentityName>9874bbaa-9697-4d7b-9def-dc2e551c3a7e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=B19F025D-990F-467C-B5C2-E5F402A0BDFA</PackageIdentityPublisher>
     <IntermediateOutputPath>E:\GitHub\windowsH5\windowsH5\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>E59D0486936B6D55FD815383DC8E92720A5F28FD1F7A6A691D60EF594024821A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>68175346-4634-4411-be1b-780f74372e14_1.0.2.0_x86__sqn6aaev1521g</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>68175346-4634-4411-be1b-780f74372e14_sqn6aaev1521g!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>68175346-4634-4411-be1b-780f74372e14</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Crl</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.2.0</RegisteredVersion>
+    <RegisteredManifestChecksum>E508EA8F4C2734E459CF8752E0C40D8EDE18EAFB4321021E9DEF0289A5530A93</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>76C7AEE9.25769E1DAB198_1.1.4.0_x86__1yd24yf9mzsye</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>76C7AEE9.25769E1DAB198_1yd24yf9mzsye!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>76C7AEE9.25769E1DAB198</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=B19F025D-990F-467C-B5C2-E5F402A0BDFA</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.4.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T07:41:12.088</Modified>
+      <Modified>2017-12-13T02:33:31.965</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.exe">
       <PackagePath>entrypoint\windowsH5.exe</PackagePath>
-      <Modified>2017-12-12T07:41:11.755</Modified>
+      <Modified>2017-12-12T13:26:50.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Crl\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -503,9 +503,225 @@
       <PackagePath>MiracleGames.winmd</PackagePath>
       <Modified>2017-12-08T10:03:26.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-12-05T09:48:47.123</Modified>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <Modified>2017-12-12T13:26:42.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <Modified>2017-12-12T13:26:42.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <Modified>2017-12-12T13:26:42.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <Modified>2017-12-12T13:26:43.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <Modified>2017-12-12T13:26:43.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:43.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:44.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T13:26:42.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -514,36 +730,35 @@
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:48:47.117</Modified>
+      <Modified>2017-12-12T13:26:43.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:48:47.118</Modified>
+      <Modified>2017-12-12T13:26:42.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:48:47.119</Modified>
+      <Modified>2017-12-12T13:26:43.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:48:47.119</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:48:47.120</Modified>
+      <Modified>2017-12-12T13:26:43.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T09:48:47.120</Modified>
+      <Modified>2017-12-12T13:26:42.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-12-05T09:48:47.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\test\test.html">
       <PackagePath>test\test.html</PackagePath>
-      <Modified>2017-12-11T10:30:41.323</Modified>
+      <Modified>2017-12-12T13:22:54.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\windowsH5.xr.xml">
       <PackagePath>windowsH5.xr.xml</PackagePath>
@@ -560,11 +775,11 @@
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T07:40:34.052</Modified>
+      <Modified>2017-12-13T02:33:29.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\windowsH5\windowsH5\bin\x86\Debug\Core\windowsH5.exe">
       <PackagePath>windowsH5.exe</PackagePath>
-      <Modified>2017-12-12T07:41:12.081</Modified>
+      <Modified>2017-12-13T02:33:31.958</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

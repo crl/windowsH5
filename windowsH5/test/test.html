@@ -27,11 +27,13 @@
 
     //微软的返回值
     function MG_CallBack(account,id,token){
-
+        var v = account + "+" + id + "+" + token;
         if (account && id && token) {
-            var v = account + "+" + id + "+" + token;
-            log(v);
+            log("has");
+        } else {
+            log("no has");
         }
+        log("loginBack:"+v);
     }
     function MG_PayBack(o){
         var value = JSON.parse(o);

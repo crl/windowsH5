@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="68175346-4634-4411-be1b-780f74372e14" Publisher="CN=Crl" Version="1.0.2.0" />
-  <mp:PhoneIdentity PhoneProductId="68175346-4634-4411-be1b-780f74372e14" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="76C7AEE9.25769E1DAB198" Publisher="CN=B19F025D-990F-467C-B5C2-E5F402A0BDFA" Version="1.1.4.0" />
+  <mp:PhoneIdentity PhoneProductId="9874bbaa-9697-4d7b-9def-dc2e551c3a7e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>windowsH5</DisplayName>
-    <PublisherDisplayName>Crl</PublisherDisplayName>
+    <DisplayName>蜀山战纪之踏火行歌</DisplayName>
+    <PublisherDisplayName>北京奇游灵动科技有限公司</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -16,10 +16,18 @@
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="windowsH5.App">
       <uap:VisualElements DisplayName="蜀山战纪II" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="踏火行歌" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        <uap:LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\BadgeLogo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="portraitFlipped" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="http://gate.shushanh5.lingyunetwork.com" Type="include" WindowsRuntimeAccess="all" />
+      </uap:ApplicationContentUriRules>
     </Application>
   </Applications>
   <Capabilities>
